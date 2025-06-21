@@ -1,3 +1,4 @@
 import numpy as np
-arr = np.arange(0,100,25).reshape((2,2))
-print(arr)
+a = np.array([[2,3,4,5],[1,2,3,4],[2,3,4,5],[1,2,3,4],[2,3,4,5],[1,2,3,4],[2,3,4,5],[1,2,3,4]])
+b = np.array([[7,3,4,5],[1,2,3,7]])
+print(np.vsplit(a,(4,2)))
