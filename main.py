@@ -1,4 +1,3 @@
 import numpy as np
-a = np.array([[2,3,4,5],[1,2,3,4],[2,3,4,5],[1,2,3,4],[2,3,4,5],[1,2,3,4],[2,3,4,5],[1,2,3,4]])
-b = np.array([[7,3,4,5],[1,2,3,7]])
-print(np.vsplit(a,(4,2)))
+a = np.random.randint(0,101,size=15)
+print(a[(a>30) & (a<70)])
